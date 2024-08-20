@@ -1,7 +1,4 @@
-Here’s a `README.md` file template for your `Jet UI Library` project:
-
-```md
-# Jet UI Library
+# 🚀 Jet UI Library
 
 Jet UI Library is a Vue 3-based component library designed to help you build modern and responsive UIs quickly. It leverages the power of Vite, TypeScript, Tailwind CSS, and Storybook to provide a streamlined development experience.
 
