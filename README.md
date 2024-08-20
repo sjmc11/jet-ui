@@ -22,13 +22,13 @@ Jet UI Library is a Vue 3-based component library designed to help you build mod
 You can install Jet UI Library via npm or yarn by pulling it directly from GitHub:
 
 ```bash
-npm install git+https://github.com/yourusername/jet-ui-library.git#v0.1.0
+npm install git+https://github.com/sjmc11/jet-ui.git#v0.0.1
 ```
 
 Or using yarn:
 
 ```bash
-yarn add git+https://github.com/yourusername/jet-ui-library.git#v0.1.0
+yarn add git+https://github.com/sjmc11/jet-ui.git#v0.0.1
 ```
 
 ## Usage
