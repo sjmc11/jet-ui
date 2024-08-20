@@ -3,12 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "files": ["dist"],
+  "module": "./dist/jet-ui.js",
+  "main": "./dist/jet-ui.umd.cjs",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build --lib --name JetUI --entry src/index.ts",
+    "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/jet-ui.js",
+      "require": "./dist/jet-ui.umd.cjs"
+    }
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.22",

@@ -2,6 +2,13 @@
 
 Jet UI Library is a Vue 3-based component library designed to help you build modern and responsive UIs quickly. It leverages the power of Vite, TypeScript, Tailwind CSS, and Storybook to provide a streamlined development experience.
 
+## TODO
+
+- Automate CI/CD build dist on release/tag push
+- Component import/export with typing
+- Helpers/Composables
+
+
 ## Features
 
 - **Vue 3 & TypeScript**: Fully typed components for better development experience.

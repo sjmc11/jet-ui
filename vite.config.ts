@@ -6,10 +6,11 @@ import path from 'path'
 export default defineConfig({
   plugins: [vue()],
   build: {
+    copyPublicDir: false,
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
       name: 'JetUI',
-      fileName: (format) => `jet-ui.${format}.js`,
+      fileName: 'jet-ui',
     },
     rollupOptions: {
       external: ['vue'],
