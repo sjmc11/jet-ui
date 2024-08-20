@@ -1,0 +1,32 @@
+.jet-btn{
+  display: inline-flex;
+  border-radius: 5px;
+  padding: 10px 16px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  &.jet-btn-primary{
+    background: #535bf2;
+    color: #fff;
+  }
+  &.jet-btn-secondary{
+    background: #dfdfe7;
+    color: #2b2b2f;
+  }
+  &.jet-btn-success{
+    background: #46c778;
+    color: #fff;
+  }
+  &.jet-btn-warning{
+    background: #dc6920;
+    color: #fff;
+  }
+  &.jet-btn-danger{
+    background: #e73147;
+    color: #fff;
+  }
+  &.jet-btn-default{
+    background: #f0f0f5;
+    color: #2b2b2f;
+  }
+}
