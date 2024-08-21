@@ -13,14 +13,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "exports": {
-    ".": {
-      "import": "./dist/jet-ui.js",
-      "require": "./dist/jet-ui.umd.cjs"
-    }
-  },
   "dependencies": {
-    "@headlessui/vue": "^1.7.22",
     "vue": "^3.4.37"
   },
   "devDependencies": {
