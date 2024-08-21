@@ -3,9 +3,6 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "files": ["dist"],
-  "module": "./dist/jet-ui.js",
-  "main": "./dist/jet-ui.umd.cjs",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
