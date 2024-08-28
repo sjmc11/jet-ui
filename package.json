@@ -3,14 +3,24 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "main": "dist/jet-ui.cjs.js",
+  "module": "dist/jet-ui.es.js",
+  "typings": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "style": "dist/style.css",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly",
     "preview": "vite preview",
+    "tsc": "vue-tsc --noEmit",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.7.22",
+    "element-plus": "^2.8.0",
     "vue": "^3.4.37"
   },
   "devDependencies": {

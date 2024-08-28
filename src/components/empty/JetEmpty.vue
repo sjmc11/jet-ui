@@ -1,6 +1,6 @@
 <template>
   <div class="jet-empty">
-    <slot name="default">{{text || "No results"}}</slot>
+    <slot name="default">{{text || "No results xxxx"}}</slot>
   </div>
 </template>
 

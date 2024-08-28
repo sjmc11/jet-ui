@@ -6,6 +6,8 @@
       <p class="text-lg font-light mt-2 text-neutral-500">A comprehensive component library for Jet Vue Applications</p>
     </div>
 
+    <el-alert title="Success alert" type="success" effect="dark" />
+
     <div id="links" class="inline-flex gap-4">
       <!-- LINK TO STORY BOOK -->
       <!-- LINK TO TEST COVERAGE -->

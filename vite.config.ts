@@ -10,7 +10,6 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
       name: 'JetUI',
-      fileName: 'jet-ui',
     },
     rollupOptions: {
       external: ['vue'],
